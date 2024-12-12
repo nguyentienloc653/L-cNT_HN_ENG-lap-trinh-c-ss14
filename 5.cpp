@@ -4,7 +4,7 @@ int main() {
     char answer;
     int count;
     char c[100];
-    printf("Nhap vao xau ky tu: ");
+    printf("Nhap vao chuoi ky tu: ");
     fgets(c, sizeof(c), stdin);
     for (int i = 0;i<strlen(c);i++){
         if((c[i] >= 'A' && c[i] <= 'Z') || (c[i] >= 'a' && c[i] <= 'z')){
@@ -12,5 +12,5 @@ int main() {
         }
         count++;
     }
-    printf("So tu trong xau la: %d",count);
+    printf("So tu trong chuoi la: %d",count);
 }
